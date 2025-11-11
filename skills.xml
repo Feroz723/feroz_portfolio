@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+    <skill name="HTML5" level="95" category="Frontend">Semantic HTML5 markup</skill>
+    <skill name="CSS3" level="90" category="Frontend">Modern CSS with Flexbox and Grid</skill>
+    <skill name="JavaScript" level="85" category="Frontend">ES6+ and modern JavaScript</skill>
+    <skill name="Responsive Design" level="90" category="Frontend">Mobile-first approach</skill>
+    <skill name="CSS Preprocessors" level="80" category="Frontend">SASS/SCSS</skill>
+    
+    <skill name="Node.js" level="80" category="Backend">Server-side JavaScript</skill>
+    <skill name="Express.js" level="75" category="Backend">Web application framework</skill>
+    <skill name="RESTful APIs" level="80" category="Backend">Design and implementation</skill>
+    <skill name="Database" level="75" category="Backend">MongoDB &amp; SQL</skill>
+    
+    <skill name="Git &amp; GitHub" level="85" category="Tools &amp; Other">Version control</skill>
+    <skill name="VS Code" level="90" category="Tools &amp; Other">Code editor</skill>
+    <skill name="Figma" level="75" category="Tools &amp; Other">UI/UX design</skill>
+    <skill name="Linux" level="70" category="Tools &amp; Other">Command line</skill>
+</skills>

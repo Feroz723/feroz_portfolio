@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Feroz Naguru - Web Developer Portfolio">
+  <title>Feroz Naguru | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero-header">
+    <div class="container">
+      <h1 class="hero-title">Feroz Naguru</h1>
+      <p class="hero-subtitle">Web Developer</p>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#bio" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="bio" class="bio-section">
+      <div class="container grid-layout">
+        <article class="bio-card">
+          <div class="profile-image-wrapper">
+            <img
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%237c3aed;stop-opacity:1' /%3E%3Cstop offset='50%25' style='stop-color:%232563eb;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2306b6d4;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='200' height='200' fill='%231f2937'/%3E%3Ccircle cx='100' cy='80' r='30' fill='url(%23grad)'/%3E%3Crect x='70' y='120' width='60' height='60' rx='5' fill='url(%23grad)'/%3E%3C/svg%3E"
+              alt="Feroz Naguru profile picture"
+              class="profile-image"
+            >
+          </div>
+          <div class="bio-content">
+            <h2>About Me</h2>
+            <p>
+              I'm a passionate web developer specializing in creating modern, responsive websites
+              using HTML, CSS, and JavaScript. I have a strong foundation in XML data handling and
+              am continuously expanding my knowledge into server-side technologies.
+            </p>
+            <p>
+              I believe in writing clean, semantic code and creating accessible web experiences
+              that work beautifully across all devices.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="education-section">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-grid">
+          <article class="education-card">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p class="institution">Your University Name</p>
+            <p class="duration">2020 - 2024</p>
+            <p class="description">
+              Specialized in Web Development and Software Engineering principles.
+              Coursework included Data Structures, Algorithms, and Web Technologies.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Skills</h2>
+          <button id="reloadBtn" class="btn">Reload Skills</button>
+        </div>
+        <div id="skillsList" class="skills-grid">
+          <!-- Skills will be loaded here by JavaScript -->
+          <div class="loading-text">Loading skills...</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><span class="icon">📧</span> email@example.com</p>
+            <p><span class="icon">📱</span> +1 (123) 456-7890</p>
+            <p><span class="icon">📍</span> City, Country</p>
+            <div class="social-links">
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span class="icon">💻</span> GitHub
+              </a>
+              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" class="social-link">
+                <span class="icon">🔗</span> LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2024 Feroz Naguru. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
